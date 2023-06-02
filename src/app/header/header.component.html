@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="assets/img/2.png" alt="Logo" width="150" height="50" class="d-inline-block align-text-top">
+          <img src="assets/img/wiki-logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -16,13 +16,9 @@
               <a class="nav-link" href="#">Articles</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Log in / Sign in</a>
+              <a class="nav-link" [routerLink]="['login']">Log in / Sign in</a>
             </li>
           </ul>
-              <form class="d-flex ms-auto" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
         </div>
       </div>
     </nav></nav>
