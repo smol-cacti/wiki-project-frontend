@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
-import { AlbumComponent } from './album/album.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +13,6 @@ import { AlbumComponent } from './album/album.component';
     HeaderComponent,
     HomeComponent,
     LoginComponent,
-    AlbumComponent
   ],
   imports: [
     BrowserModule,
