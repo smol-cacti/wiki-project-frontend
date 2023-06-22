@@ -26,8 +26,18 @@
                 <input type="password" id="typePasswordX-2" class="form-control form-control-lg" />
                 <label class="form-label" for="typePasswordX-2">Password</label>
               </div>
-  
-              <button class="btn btn-primary btn-lg btn-block" type="submit">Sign up</button>
+
+              <div class="form-outline mb-4">
+                <input type="password" id="typePasswordX-2" class="form-control form-control-lg" />
+                <label class="form-label" for="typePasswordX-2">Confirm password</label>
+              </div>
+              <!--Toast-->
+              <div class="alert alert-success" *ngIf="isToastVisible">
+                <strong>You're in!</strong> Your account has been created succesfully.
+              </div>
+
+              <button class="btn btn-primary btn-lg btn-block" type="submit" (click)="showToast()">Sign up</button>
+              
               <br><br>
               <div class="container">
                 <div class="col-12 mx-auto">

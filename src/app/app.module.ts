@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
+import { AlertModule } from 'ngx-bootstrap/alert';
 //Components
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -39,6 +40,7 @@ const routes: Routes = [
   ],
   imports: [
     BrowserModule,
+    AlertModule.forRoot(),
     AppRoutingModule,
     RouterModule.forRoot(routes)
   ],
